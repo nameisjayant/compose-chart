@@ -26,7 +26,27 @@ fun LineChartSample() {
            color = Brush.linearGradient(listOf(
                Color.Black, Color.Red, Color.Green
            )),
-           data = listOf(5f, 2f, 3f, 2f, 0f, 7f),
+           data = listOf(
+               5f,
+               2f,
+               3f,
+               2f,
+               0f,
+               7f,
+               10f,
+               12f,
+               8f,
+               2f,
+               3f,
+               10f,
+               5f,
+               7f,
+               6f,
+               4f,
+               12f,
+               11f,
+               15f
+           ),
            modifier = Modifier
                .fillMaxWidth()
                .height(400.dp),
